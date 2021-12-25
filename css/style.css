@@ -1,0 +1,367 @@
+:root{
+    --orientation: landscape;
+}
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: block;
+}
+.FixoNoTopo{
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+.geral{
+    height: auto;
+    background: linear-gradient(-135deg, #9fc0d5, #0083d3, #0f5d8d, #021a32);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #5f3e9d;
+    width: 70%;
+    display: block;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:#0083d3;
+    color: #FFF;
+    height: 150px;
+    align-items: center;
+}
+.titulo h1{
+    text-shadow: 3px 3px 5px #000;
+    font-size: 80px;
+    margin:0;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+    border-top: 5px solid #FFF;;
+    border-bottom: 5px solid #FFF;
+}
+nav{
+    width: 100%;
+    background-color: #021a32;
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav a {
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+nav a:hover{
+    color: #0083d3;
+}
+#sobre{
+    color: #FFF;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.quemeh{
+    font-size: 70px;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+.quemeh p{
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 25px;
+    padding: 0;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.area_img{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+.area_img img{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    border-radius: 1%;
+}
+.area_img figcaption{
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+#descricao{
+    padding: 2%;
+    
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 22px;
+}
+#descricao .texto{
+    text-align: center;
+}
+#linhadotempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.forma{
+    margin-bottom: 15px;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+}
+.primeiro{
+    background-color: #021a32;
+    width: 15px;
+    height: 60px;
+}
+.segundo{
+    font-size: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #0083d3;
+    border: 2px solid #021a32;
+    width: 110px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terceiro{
+    background-color: #021a32;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    color: #FFF;
+}
+#galeria{
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#galeria .imagem{
+    padding: 5px;
+}
+#galeria img{
+    flex:1;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.imagem_aberta{
+    background: rgba(0, 0, 0, 0.6);;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+.imagem_aberta .area_full{
+    margin:0;
+}
+.imagem_aberta .area_full img{
+    width:100%;
+}
+.imagem_aberta figcaption{
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+#fechar{
+    display: flex;
+    justify-content: flex-end;
+}
+#fechar img{
+    height: 5%;
+    width: 5%;
+    padding-right: 30px;
+}
+.texto_sm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#saibamais{
+    color:#FFF;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.icones img{
+    width: 50px;
+    height: auto;
+}
+.icones img:hover{
+    transition: all 200ms linear;
+    filter: brightness(30%);
+    width: 70px;
+}
+.icones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icones a{
+    margin: 10px;
+}
+#saibamais .links{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#saibamais .links a{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ac74fc;
+    text-decoration: none;
+}
+#saibamais .links a:hover{
+    transition: all 200ms linear;
+    font-size: 30px;
+    color: #3c1c58;
+}
+footer{
+    background-color: #021a32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    color: #FFF;
+    font-size: 20px;
+    padding: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape .meu_nome{
+    color: #0083d3
+}
+.redes{
+    margin-left: 20px;
+    display:none;
+}
+.redes img:hover{
+    filter: brightness(200%) grayscale(100%);
+}
+.redes img{
+    width:30px;
+    height: auto;
+}
+@media (max-width:885px){
+    #galeria img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width:742px){
+    #galeria img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width:558px){
+    .titulo h1{
+        font-size: 70px;
+    }
+    .menu{
+        display: flex;
+    }
+    nav a{
+        font-size: 17px;
+        text-align: center;
+        padding: 8px;
+    }
+    figure{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+    #descricao{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width:499px){
+    .titulo h1{
+        font-size: 60px;
+    }
+}
+@media (max-width:425px){
+    .titulo h1{
+        font-size: 56px;
+    }
+}
+@media (max-width:405px){
+    .titulo h1{
+        font-size: 55px;
+    }
+}
+@media (max-width:394px){
+    .titulo h1{
+        font-size: 52px;
+    }
+}
+@media (max-width:363px){
+    .titulo h1{
+        font-size: 45px;
+    }
+}
+@media (orientation: landscape){
+    :root{
+        --orientation:landscape;
+    }
+}
+@media (orientation: portrait){
+    :root{
+        --orientation:portrait;
+    }
+    .texto_rodape{
+        font-size: 17px;
+    }
+    .redes img{
+        width: 28px;
+    }
+}
