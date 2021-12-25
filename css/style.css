@@ -171,6 +171,20 @@ nav a:hover{
     width: 100%;
     margin-top: 70px;
     display: flex;
+}
+.conjunto{
+    display: block;
+}
+.texto_galeria{
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fotos{
+    justify-content: center;
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
 }
 #galeria .imagem{
@@ -182,7 +196,7 @@ nav a:hover{
     height: 300px;
     object-fit: cover;
 }
-.imagem_aberta{
+#imagem_aberta{
     background: rgba(0, 0, 0, 0.6);;
     position: fixed;
     display: none;
@@ -192,13 +206,13 @@ nav a:hover{
     height: 100%;
     color: #FFF;
 }
-.imagem_aberta .area_full{
+#imagem_aberta .area_full{
     margin:0;
 }
-.imagem_aberta .area_full img{
+#imagem_aberta .area_full img{
     width:100%;
 }
-.imagem_aberta figcaption{
+#imagem_aberta figcaption{
     text-align: center;
     padding: 5px;
     border-top: 2px solid #FFF;
