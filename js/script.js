@@ -72,7 +72,7 @@ window.onload = function(){
     document.querySelector(".img5").addEventListener("click", function(){
         tirarDoTopo();
         document.querySelector("#imagem_aberta .nsei .imagem figure img").src = document.querySelector("#galeria .img5 img").getAttribute('src');
-        document.querySelector("#imagem_aberta .nsei .imagem figure figcaption").innerHTML = 'Gaules, segundo, da direita para à esquerda, posa com time do MIBR campeão da DreamHack 2007.';
+        document.querySelector("#imagem_aberta .nsei .imagem figure figcaption").innerHTML = 'Gaules, segundo, da direita para a esquerda, posa com time do MIBR campeão da DreamHack 2007.';
         document.querySelector("#imagem_aberta").style.display = 'flex';
     });
     document.querySelector(".img6").addEventListener("click", function(){
