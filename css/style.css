@@ -290,7 +290,12 @@ footer{
     align-items: center;
 }
 .rodape .meu_nome{
-    color: #0083d3
+    color: #0083d3;
+    text-decoration: underline;
+}
+.rodape .meu_nome:hover{
+    color: #ac74fc;
+    text-decoration: underline;
 }
 .redes{
     margin-left: 20px;
